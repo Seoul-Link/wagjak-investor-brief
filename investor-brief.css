@@ -1,0 +1,86 @@
+:root{--ink:#211a16;--paper:#f2ede4;--cream:#fffaf0;--red:#d64131;--peach:#efb097;--green:#415a43;--line:rgba(33,26,22,.2)}*{box-sizing:border-box}body{margin:0;background:var(--paper);color:var(--ink);font-family:Inter,Pretendard,"Apple SD Gothic Neo",Arial,sans-serif;line-height:1.4}a{color:inherit}img{display:block;width:100%;height:100%;object-fit:cover}h1,h2,h3,p{word-break:keep-all}.topbar{height:64px;padding:0 max(24px,4vw);display:flex;align-items:center;justify-content:space-between;border-bottom:1px solid var(--line);font-size:11px;letter-spacing:.14em}.topbar a{font-family:Georgia,serif;font-weight:700;text-decoration:none}.hero{padding:8vw 5vw 5vw;min-height:100vh;background:var(--cream)}.tag,.label{font-size:11px;letter-spacing:.2em;font-weight:800}.hero h1,.section h2,.architecture strong,.closing h2{font-family:Georgia,"Noto Serif KR",serif;font-weight:400;letter-spacing:-.055em;line-height:.94}.hero h1{font-size:clamp(72px,12vw,188px);margin:28px 0}em{font-style:italic;color:var(--red)}.hero-line{font-size:clamp(22px,2.8vw,42px);font-weight:650;letter-spacing:-.035em;margin:4px 0}.hero-strip{display:grid;grid-template-columns:1fr 1fr 1.15fr;gap:10px;height:34vh;min-height:260px;margin-top:54px}figure{position:relative;margin:0;overflow:hidden;background:#ddd}figcaption{position:absolute;left:10px;bottom:10px;background:rgba(255,250,240,.94);color:var(--ink);padding:7px 9px;font-size:10px;font-weight:700}.note,.source{font-size:11px;opacity:.58;margin-top:15px}.section{padding:100px max(24px,6vw);border-top:1px solid var(--line)}.section h2{font-size:clamp(48px,7vw,104px);margin:28px 0;max-width:1200px}.lead{font-size:clamp(18px,2vw,28px);font-weight:650}.option-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:18px;margin-top:54px}.option-grid article{background:var(--cream);padding:14px}.option-grid article>b,.brand-copy>span{display:block;font-size:10px;letter-spacing:.16em;color:var(--red);margin:7px 6px 13px}.duo{height:330px;display:grid;grid-template-columns:1fr 1fr;gap:3px}.option-grid h3{font-family:Georgia,"Noto Serif KR",serif;font-size:30px;margin:22px 6px 6px}.option-grid p{margin:0 6px 12px}.dark{background:var(--ink);color:var(--cream)}.dark em{color:#ffb49d}.path{display:grid;grid-template-columns:1fr auto 1fr auto 1fr auto 1.2fr;align-items:center;gap:18px;margin-top:70px}.path span,.path strong{padding:28px 16px;border:1px solid rgba(255,255,255,.28);font-size:clamp(16px,1.7vw,25px);text-align:center}.path strong{background:var(--red)}.path i{font-size:28px}.chapter{display:grid;grid-template-columns:110px 1fr;column-gap:30px}.num{font:70px Georgia,serif;color:var(--red)}.chapter h3{font-size:clamp(26px,3vw,46px);margin:0 0 30px}.slide{font-size:clamp(21px,2.5vw,36px);font-weight:650;letter-spacing:-.03em;margin:7px 0}.gallery{display:grid;gap:8px}.gallery.two{grid-template-columns:repeat(2,1fr)}.gallery.three{grid-template-columns:repeat(3,1fr)}.chapter>.gallery{grid-column:1/-1;height:520px;margin-top:54px}.source{grid-column:1/-1}.peach{background:#f1c0ad}.brand{display:grid;grid-template-columns:.65fr 1.35fr;background:var(--cream);border-top:1px solid var(--ink);margin-top:70px}.brand-copy{padding:40px}.brand-copy h3{font:clamp(38px,4vw,62px)/1.05 Georgia,"Noto Serif KR",serif;margin:10px 0 28px}.brand-copy p{font-size:clamp(19px,2vw,28px);font-weight:650;margin:4px 0}.brand-copy strong{display:block;margin-top:36px;font-size:17px;color:var(--red)}.brand .gallery{height:480px}.crack-grid{display:grid;grid-template-columns:1.4fr .6fr;gap:30px;margin-top:52px}.crack-grid>.gallery{height:540px}.product{text-align:center}.product>h2{font-size:clamp(76px,12vw,170px);margin:48px auto 80px}.ritual{display:grid;grid-template-columns:repeat(4,1fr);border-block:1px solid var(--ink);text-align:left}.ritual div{padding:30px;border-right:1px solid var(--ink)}.ritual div:last-child{border:0}.ritual b,.proof b,.pillar-grid b{font-size:11px;color:var(--red)}.ritual h3{font-size:30px;margin:30px 0 8px}.architecture{padding:130px 5vw;background:var(--red);color:#fff;text-align:center}.architecture>div{display:flex;align-items:center;justify-content:center;gap:28px;margin:60px auto;max-width:1500px}.architecture strong{font-size:clamp(34px,5.2vw,76px)}.architecture i{font-size:44px}.architecture>p:not(.tag){font-size:clamp(20px,2.2vw,32px);font-weight:700;margin:5px}.why{background:#e8dcc9}.answer{font:clamp(70px,11vw,154px)/1 Georgia,"Noto Serif KR",serif;color:var(--red);margin:45px 0}.proof{display:grid;grid-template-columns:repeat(3,1fr);margin-top:60px;border:1px solid var(--ink)}.proof article{padding:36px;min-height:270px;border-right:1px solid var(--ink)}.proof article:last-child{border:0}.proof h3{font-size:clamp(25px,2.5vw,38px);margin:34px 0}.proof span{display:inline-block;padding:8px 10px;border:1px dashed var(--ink);font-size:10px;opacity:.6}.founder-grid{display:grid;grid-template-columns:.7fr 1.3fr;gap:50px;margin-top:60px}.founder-grid>div:first-child{align-self:center}.founder-grid strong{display:block;font:clamp(28px,3vw,46px)/1.2 Georgia,"Noto Serif KR",serif;margin-top:46px}.founder-grid small{display:block;margin-top:34px;opacity:.55}.founder-grid>.gallery{height:570px}.experience{display:flex;justify-content:center;align-items:center;gap:30px;margin-top:64px;font:clamp(25px,4vw,60px)/1.1 Georgia,"Noto Serif KR",serif}.experience i{color:#ffb49d}.pillars{background:var(--green);color:var(--cream)}.pillar-grid{display:grid;grid-template-columns:repeat(4,1fr);margin-top:60px;border:1px solid rgba(255,255,255,.35)}.pillar-grid article{padding:34px;min-height:230px;border-right:1px solid rgba(255,255,255,.35)}.pillar-grid article:last-child{border:0}.pillar-grid b{color:#ffb49d}.pillar-grid h3{font:clamp(28px,3vw,45px)/1.1 Georgia,"Noto Serif KR",serif;margin:36px 0 12px}.formula{text-align:center;font:clamp(32px,5vw,72px)/1.15 Georgia,"Noto Serif KR",serif;margin:100px auto 0}.formula i{color:#ffb49d}.closing{padding:140px 6vw;background:var(--cream);text-align:center}.closing>p:first-child{font-size:11px;letter-spacing:.2em}.closing h2{font-size:clamp(58px,8vw,118px)}footer{padding:38px max(24px,6vw);background:var(--ink);color:var(--cream);font-size:11px}footer details{max-width:1100px;margin-bottom:30px}footer summary{cursor:pointer;font-weight:800;margin-bottom:16px}footer li{margin:8px 0}footer>span{opacity:.45;letter-spacing:.12em}
+@media(max-width:900px){.option-grid{grid-template-columns:1fr}.duo{height:420px}.path{grid-template-columns:1fr}.path i{display:none}.chapter{grid-template-columns:1fr}.brand,.crack-grid,.founder-grid{grid-template-columns:1fr}.brand .gallery,.crack-grid>.gallery{height:440px}.architecture>div{flex-direction:column}.architecture i{transform:rotate(90deg)}.proof,.pillar-grid{grid-template-columns:1fr 1fr}.proof article:nth-child(2),.pillar-grid article:nth-child(2){border-right:0}}
+@media(max-width:560px){.topbar{height:54px}.topbar>span{display:none}.hero{padding:70px 20px 36px}.hero h1{font-size:58px}.hero-strip{grid-template-columns:1fr 1fr;height:340px}.hero-strip figure:last-child{grid-column:1/-1}.section{padding:72px 20px}.section h2{font-size:43px}.duo{height:280px}.gallery.two,.gallery.three{grid-template-columns:1fr;height:auto}.gallery figure{height:310px}.chapter>.gallery{height:auto}.brand-copy{padding:28px 20px}.ritual{grid-template-columns:1fr 1fr}.ritual div:nth-child(2){border-right:0}.architecture{padding:90px 20px}.proof,.pillar-grid{grid-template-columns:1fr}.proof article,.pillar-grid article{border-right:0;border-bottom:1px solid currentColor}.experience{flex-direction:column;gap:12px}.closing{padding:100px 20px}.closing h2{font-size:48px}}
+/* Numbered, real-photo choices in the existing hero direction section. */
+.hero-choice-grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:18px;margin-top:45px}
+.hero-choice{min-width:0;background:var(--cream);border:1px solid var(--line);overflow:hidden}
+.hero-choice.preferred{grid-column:span 2;border:2px solid var(--red)}
+.hero-choice-image{position:relative;aspect-ratio:1.22;background:#e5ded3;overflow:hidden}
+.hero-choice.preferred .hero-choice-image{aspect-ratio:2.15}
+.hero-choice-image img{width:100%;height:100%;object-fit:cover}
+.hero-choice-number{position:absolute;top:13px;left:13px;display:grid;place-items:center;min-width:50px;height:50px;padding:0 8px;background:var(--red);color:#fff;font:700 25px Georgia,serif;box-shadow:0 2px 10px rgba(0,0,0,.17)}
+.hero-choice-copy{padding:18px 20px 22px}
+.hero-choice-copy h3{font:clamp(24px,2.4vw,34px)/1.15 Georgia,"Noto Serif KR",serif;margin:0 0 10px}
+.hero-choice-copy p{font-size:15px;font-weight:650;margin:0 0 18px}
+.hero-choice-copy small{display:block;font-size:11px;line-height:1.45;opacity:.7}
+.hero-choice.preferred .hero-choice-copy h3{color:var(--red)}
+.hero-choice-note{margin:28px 0 0;font-size:clamp(17px,1.8vw,24px);font-weight:700}
+.hero-choice-sources{margin-top:24px;border-top:1px solid var(--line);padding-top:15px;font-size:12px;opacity:.72}
+.hero-choice-sources summary{cursor:pointer;font-weight:700}
+.hero-choice-sources p{max-width:900px;line-height:1.6}
+@media(max-width:900px){.hero-choice-grid{grid-template-columns:repeat(2,minmax(0,1fr))}.hero-choice.preferred{grid-column:span 2}}
+@media(max-width:560px){.hero-choice-grid{grid-template-columns:1fr;gap:14px;margin-top:30px}.hero-choice.preferred{grid-column:auto}.hero-choice.preferred .hero-choice-image,.hero-choice-image{aspect-ratio:1.25}.hero-choice-copy{padding:16px 18px 20px}.hero-choice-copy h3{font-size:28px}.hero-choice-number{min-width:45px;height:45px;font-size:23px}.hero-choice-note{font-size:18px}}
+/* Version-separated QUÁ photo chooser in the existing founder section. */
+.founder .lead{max-width:900px}
+.qua-version{margin-top:70px;border:1px solid rgba(255,255,255,.34)}
+.qua-version-heading{padding:28px 34px 34px;background:rgba(255,255,255,.08)}
+.qua-version-heading span{font-size:11px;letter-spacing:.18em;color:#ffb49d;font-weight:800}
+.qua-version-heading h3{font:clamp(30px,3.6vw,54px)/1.1 Georgia,"Noto Serif KR",serif;margin:18px 0 12px}
+.qua-version-heading p{font-size:15px;line-height:1.55;max-width:1000px;margin:0;color:rgba(255,250,240,.8)}
+.qua-franchise{border-color:#ffb49d}
+.qua-franchise .qua-version-heading{background:rgba(214,65,49,.25)}
+.qua-photo-group{padding:32px 34px 38px;border-top:1px solid rgba(255,255,255,.25)}
+.qua-group-title{display:flex;gap:20px;align-items:baseline;margin-bottom:22px}
+.qua-group-title b{font-size:11px;letter-spacing:.17em;color:#ffb49d}
+.qua-group-title h4{font:29px Georgia,"Noto Serif KR",serif;margin:0}
+.qua-photo-grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:15px}
+.qua-photo{min-width:0;background:#fffaf0;color:#211a16}
+.qua-photo-frame{position:relative;aspect-ratio:1.28;background:#d5d0c7;overflow:hidden}
+.qua-photo-frame img{width:100%;height:100%;object-fit:cover}
+.qua-photo-frame span{position:absolute;top:12px;left:12px;padding:8px 10px;background:#d64131;color:#fff;font-size:12px;font-weight:800;letter-spacing:.04em}
+.qua-photo p{margin:13px 16px 7px;font-size:19px;font-weight:700}
+.qua-photo small{display:block;margin:0 16px 17px;font-size:11px;opacity:.65}
+.qua-pick-note{font-size:clamp(17px,1.8vw,24px);font-weight:700;margin:42px 0 0}
+.qua-photo-sources{border-top:1px solid rgba(255,255,255,.35);margin-top:24px;padding-top:15px;font-size:12px;opacity:.7}
+.qua-photo-sources summary{cursor:pointer;font-weight:800}
+.qua-photo-sources p{max-width:900px;line-height:1.6}
+@media(max-width:900px){.qua-photo-grid{grid-template-columns:repeat(2,minmax(0,1fr))}}
+@media(max-width:560px){.qua-version{margin-top:40px}.qua-version-heading{padding:24px 20px}.qua-version-heading h3{font-size:34px}.qua-version-heading p{font-size:13px}.qua-photo-group{padding:24px 20px 28px}.qua-photo-grid{grid-template-columns:1fr;gap:14px}.qua-photo-frame{aspect-ratio:1.38}.qua-photo p{font-size:18px}.qua-pick-note{font-size:18px}}
+/* Official Maison photo alternatives only in the Cédric chapter. */
+.cedric-chapter>.cedric-gallery{grid-template-columns:repeat(2,minmax(0,1fr));height:auto;gap:10px}
+.cedric-gallery figure{aspect-ratio:1.52;background:#f8f5ef}
+.cedric-gallery figure:nth-child(n+3){aspect-ratio:1.28}
+.cedric-gallery figure:nth-child(n+3) img{object-fit:contain}
+.cedric-gallery figcaption{font-size:12px;padding:9px 11px}
+@media(max-width:560px){.cedric-chapter>.cedric-gallery{grid-template-columns:1fr;height:auto}.cedric-gallery figure{height:auto;aspect-ratio:1.35}.cedric-gallery figure:nth-child(n+3){aspect-ratio:1.02}}
+/* Two strong photos per QUÁ version group after the owner upload revision. */
+.qua-photo-grid.two{grid-template-columns:repeat(2,minmax(0,1fr))}
+@media(max-width:560px){.qua-photo-grid.two{grid-template-columns:1fr}}
+/* Two evidence pillars in the existing SeoulLink rationale section. */
+.why .proof-two{grid-template-columns:repeat(2,minmax(0,1fr));gap:20px;border:0;margin-top:54px}
+.why .proof-two article{min-width:0;min-height:520px;border:1px solid var(--ink);background:var(--cream);padding:28px;display:flex;flex-direction:column}
+.why .proof-two h3{font:clamp(27px,3vw,47px)/1.12 Georgia,"Noto Serif KR",serif;letter-spacing:-.045em;margin:0 0 28px}
+.why .reference-slot{flex:1;min-height:330px;border:2px dashed rgba(33,26,22,.35);display:flex;align-items:center;justify-content:center;background:rgba(232,220,201,.38)}
+.why .reference-slot span{border:0;padding:0;opacity:.55;font-size:14px;letter-spacing:.03em}
+.why .proof-qua-images{flex:1;display:grid;grid-template-columns:1fr 1fr 1.15fr;gap:7px;min-height:330px;overflow:hidden}
+.why .proof-qua-images img{min-width:0;min-height:0;width:100%;height:100%;object-fit:cover}
+.why .founder-proof>a{font-size:13px;font-weight:700;align-self:flex-start;margin-top:16px;text-decoration:none;border-bottom:1px solid currentColor}
+@media(max-width:900px){.why .proof-two{grid-template-columns:1fr}.why .proof-two article{min-height:450px}}
+@media(max-width:560px){.why .proof-two{margin-top:32px;gap:14px}.why .proof-two article{padding:20px;min-height:360px}.why .reference-slot{min-height:250px}.why .proof-qua-images{grid-template-columns:repeat(2,minmax(0,1fr));min-height:0}.why .proof-qua-images img{height:170px}.why .proof-qua-images img:last-child{grid-column:1/-1;height:225px}}
+@media(max-width:560px){.hero-strip figure:first-child figcaption{top:8px;bottom:auto}}
+/* Single, empty visual shell for future SeoulLink marketing references. */
+.marketing-reference{background:#e8dcc9}
+.marketing-reference h2{max-width:1100px}
+.marketing-reference-visuals{display:grid;grid-template-columns:minmax(0,1.7fr) minmax(0,1fr);grid-template-rows:repeat(2,220px);gap:16px;margin-top:58px}
+.marketing-reference-frame{min-width:0;border:1px solid rgba(33,26,22,.22);background:#f6f0e6}
+.marketing-reference-frame.main{grid-row:span 2;background:#fffaf0}
+@media(max-width:900px){.marketing-reference-visuals{grid-template-columns:1fr 1fr;grid-template-rows:360px 190px}.marketing-reference-frame.main{grid-column:span 2;grid-row:auto}}
+@media(max-width:560px){.marketing-reference-visuals{grid-template-columns:1fr;grid-template-rows:260px 150px 150px;gap:12px;margin-top:36px}.marketing-reference-frame.main{grid-column:auto}}
+/* Keep the complete 1280:853 first-page fruit composition inside its own frame. */
+.hero-strip figure:first-child{width:100%;height:auto;aspect-ratio:1280/853;align-self:center}
+/* The 04 concept equation is a labeled AI visualization, not product photography. */
+.product>h2{font-size:clamp(62px,7.5vw,112px);margin:34px auto 42px}
+.product>.concept-equation{max-width:1500px;margin:0 auto;background:#f6eadf;border:1px solid var(--line)}
+.product>.concept-equation img{width:100%;height:auto;object-fit:contain}
+.product>.concept-equation figcaption{top:16px;bottom:auto;left:16px;background:var(--ink);color:#fff;font-size:12px;letter-spacing:.02em;padding:9px 11px}
+@media(max-width:560px){.product>h2{margin:25px auto 32px}.product>.concept-equation{width:calc(100% + 40px);max-width:none;margin-left:-20px}.product>.concept-equation figcaption{top:10px;left:10px;font-size:10px;padding:7px 9px}}
