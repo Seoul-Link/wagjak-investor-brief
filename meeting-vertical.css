@@ -1,0 +1,140 @@
+/* Scoped presentation language for the continuous in-person bakery brief. */
+.meeting-intro{background:#e8dcc9;padding-bottom:68px}
+.meeting-intro-lead{max-width:950px;font-size:clamp(19px,2vw,28px);line-height:1.5;font-weight:600;margin:24px 0}
+.meeting-scroll-cue{font-size:11px;letter-spacing:.18em;font-weight:800;margin:45px 0 0}
+.meeting-scroll-cue span{font-size:24px;vertical-align:middle;margin-left:12px}
+.meeting-partnership{--mp-ink:#14211c;--mp-paper:#f4f0e7;--mp-orange:#dc6946;--mp-gold:#eacb8a;box-sizing:border-box;color:var(--mp-ink);background:var(--mp-paper);font-family:Inter,Pretendard,"Apple SD Gothic Neo",Arial,sans-serif}
+.meeting-partnership *{box-sizing:border-box}
+.meeting-partnership .deck-slide{position:relative;display:block;width:100%;height:auto;min-height:0;overflow:visible;border-top:1px solid rgba(20,33,28,.12);background:#f5f1e8;color:var(--mp-ink);padding:0;margin:0}
+.meeting-partnership .deck-slide.dark{background:#12251f;color:#f7f2e8}
+.meeting-partnership .deck-slide.green{background:#315543;color:#fff8eb}
+.meeting-partnership .deck-slide.peach{background:#f2ded0}
+.meeting-partnership .deck-slide.sun{background:#e8d6aa}
+.meeting-partnership .deck-slide.split{background:#eae5db}
+.meeting-partnership .slide-inner{position:relative;display:flex;flex-direction:column;justify-content:center;gap:clamp(16px,2vw,28px);width:min(100%,1580px);min-height:0;height:auto;margin:0 auto;padding:clamp(54px,6vw,100px) clamp(24px,6vw,92px)}
+.meeting-partnership .kicker{font-size:clamp(11px,.9vw,14px);font-weight:800;letter-spacing:.18em;margin:0;opacity:.72}
+.meeting-partnership .headline{font-family:Georgia,"Noto Serif KR",serif;font-weight:400;letter-spacing:-.055em;line-height:1.1;font-size:clamp(44px,5.3vw,88px);max-width:1280px;margin:0}
+.meeting-partnership .headline em{font-style:normal;color:var(--mp-orange)}
+.meeting-partnership .dark .headline em,.meeting-partnership .green .headline em{color:var(--mp-gold)}
+.meeting-partnership .lead{font-size:clamp(18px,1.55vw,26px);font-weight:580;line-height:1.48;max-width:1050px;margin:0}
+.meeting-partnership .note{font-size:clamp(12px,.9vw,15px);line-height:1.5;opacity:.72;margin:0;max-width:1150px}
+.meeting-partnership .serif{font-family:Georgia,"Noto Serif KR",serif}
+.meeting-partnership .proofnum{font-size:clamp(68px,8vw,132px);font-weight:600;line-height:1;letter-spacing:-.09em;margin:0;font-variant-numeric:tabular-nums}
+.meeting-partnership .proofnum small{font-size:.27em;letter-spacing:-.02em;margin-left:.12em;white-space:nowrap}
+.meeting-partnership .prooflabel{font-size:16px;font-weight:700;margin:10px 0 0}
+.meeting-partnership .text-stack{display:flex;flex-direction:column;gap:20px;min-width:0}
+.meeting-partnership .two-col{display:grid;grid-template-columns:minmax(0,1.05fr) minmax(0,.95fr);gap:clamp(22px,4vw,64px);align-items:center}
+.meeting-partnership .two-col.wide-media{grid-template-columns:minmax(0,.85fr) minmax(0,1.15fr)}
+.meeting-partnership .hero-slide{background:#0b2119;color:#fffaf0;min-height:690px;overflow:hidden}
+.meeting-partnership .hero-slide .slide-inner{z-index:2;min-height:690px;align-items:flex-start;justify-content:center}
+.meeting-partnership .hero-slide .headline{font-size:clamp(58px,7vw,115px);max-width:1050px}
+.meeting-partnership .hero-slide .headline em{color:var(--mp-gold)}
+.meeting-partnership .hero-slide .lead{max-width:850px}
+.meeting-partnership .hero-slide::before{content:"";position:absolute;inset:0;z-index:1;background:linear-gradient(90deg,#071b15f2,#071b15b9 58%,#071b1530)}
+.meeting-partnership .hero-image{position:absolute;inset:0;display:grid;grid-template-columns:repeat(4,1fr);gap:3px;opacity:.76}
+.meeting-partnership .hero-image img{width:100%;height:100%;min-height:690px;object-fit:cover}
+.meeting-partnership .visual-pill{display:inline-block;border:1px solid currentColor;border-radius:99px;padding:9px 18px;font-size:12px;font-weight:800;letter-spacing:.06em}
+.meeting-partnership .food-case-intro .slide-inner{min-height:540px}
+.meeting-partnership .food-case-list{display:grid;grid-template-columns:repeat(4,1fr);gap:8px;max-width:950px;width:100%;margin-top:16px}
+.meeting-partnership .food-case-list span{border-top:2px solid currentColor;padding:18px 4px;font-size:clamp(16px,1.4vw,22px);font-weight:700}
+.meeting-partnership .media-window{position:relative;background:#101712;overflow:hidden;width:100%;min-width:0;border-radius:4px;box-shadow:0 16px 44px #0002}
+.meeting-partnership .media-window video{display:block;width:100%;height:100%;object-fit:contain;background:#101712}
+.meeting-partnership .media-window .print-poster{display:none}
+.meeting-partnership .media-window.portrait{max-width:460px;height:clamp(520px,56vw,680px);margin:auto}
+.meeting-partnership .media-row{display:flex;align-items:center;justify-content:center;gap:18px;min-width:0}
+.meeting-partnership .media-row .media-window{width:50%;height:clamp(480px,43vw,620px)}
+.meeting-partnership .roof-video-grid{display:grid;grid-template-columns:1fr 1fr;gap:18px;width:100%;max-width:1100px;margin:auto}
+.meeting-partnership .roof-video-grid .media-window{height:clamp(500px,50vw,690px)}
+.meeting-partnership .roof-menu-copy{display:flex;flex-direction:column;gap:12px}
+.meeting-partnership .roof-sales-content{display:grid;grid-template-columns:minmax(0,1.55fr) minmax(230px,.45fr);gap:32px;align-items:center}
+.meeting-partnership .chart-svg{display:block;width:100%;max-height:430px;overflow:visible}
+.meeting-partnership .chart-svg.mobile-chart{display:none}
+.meeting-partnership .chart-svg text{font-size:13px;fill:currentColor}
+.meeting-partnership .chart-svg .grid{stroke:currentColor;opacity:.25}
+.meeting-partnership .chart-svg .line{stroke:#d25535;stroke-width:2;stroke-dasharray:5 5}
+.meeting-partnership .chart-svg polyline{fill:none;stroke-width:3}
+.meeting-partnership .chart-svg .before{stroke:#68736d}
+.meeting-partnership .chart-svg .after{stroke:#e96343}
+.meeting-partnership .roof-sales-proof{display:flex;flex-direction:column;gap:18px}
+.meeting-partnership .roof-sales-proof strong{font-size:clamp(65px,7vw,112px);line-height:1;letter-spacing:-.1em;white-space:nowrap}
+.meeting-partnership .roof-sales-proof strong small{font-size:.38em;margin-left:.15em}
+.meeting-partnership .roof-sales-proof span{font-size:clamp(17px,1.6vw,25px);line-height:1.4;font-weight:700}
+.meeting-partnership .metric-big{display:grid;grid-template-columns:1.15fr .85fr;gap:28px;align-items:center}
+.meeting-partnership .metric-big .support{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:8px}
+.meeting-partnership .metric-big .support div{padding:18px 12px;border-top:2px solid currentColor;min-width:0}
+.meeting-partnership .metric-big .support b{display:block;font-size:clamp(24px,2.6vw,42px);letter-spacing:-.06em;line-height:1.1;font-variant-numeric:tabular-nums}
+.meeting-partnership .metric-big .support span{display:block;font-size:13px;line-height:1.35;margin-top:9px}
+.meeting-partnership .metrics{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:1px;background:#19231d;margin-top:12px;border:1px solid #19231d}
+.meeting-partnership .metrics>div{padding:clamp(20px,2.5vw,35px);background:#fff9ee;min-width:0}
+.meeting-partnership .metrics b{display:block;font-size:clamp(27px,3.3vw,54px);line-height:1.1;letter-spacing:-.07em;font-variant-numeric:tabular-nums;overflow-wrap:anywhere}
+.meeting-partnership .metrics span{display:block;font-size:14px;font-weight:700;margin-top:10px}
+.meeting-partnership .sales-bars{display:grid;grid-template-columns:repeat(6,minmax(0,1fr));gap:14px;height:420px;align-items:end;margin:24px 0 38px;padding-bottom:0;border-bottom:1px solid currentColor}
+.meeting-partnership .bar-col{height:100%;position:relative;display:flex;align-items:flex-end;min-width:0}
+.meeting-partnership .bar-col .bar{width:100%;height:var(--percent);background:linear-gradient(#e7b083,#d56945)}
+.meeting-partnership .bar-col b{position:absolute;bottom:calc(var(--percent) + 8px);left:0;font-size:clamp(18px,2vw,30px);white-space:nowrap;letter-spacing:-.05em}
+.meeting-partnership .bar-col span{position:absolute;bottom:-32px;left:0;font-size:14px;font-weight:700}
+.meeting-partnership .country-grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:18px}
+.meeting-partnership .country-card{background:#fffaf2;color:#17251e;min-width:0;box-shadow:0 12px 35px #0001}
+.meeting-partnership .country-video{height:clamp(440px,38vw,590px)}
+.meeting-partnership .country-copy{padding:18px;display:flex;justify-content:space-between;gap:12px;align-items:start}
+.meeting-partnership .country-copy>div{display:flex;flex-direction:column;gap:3px;white-space:nowrap}
+.meeting-partnership .country-copy strong{font-size:clamp(23px,2vw,33px);line-height:1.1}
+.meeting-partnership .country-copy span{font-size:12px;color:#68706a}
+.meeting-partnership .country-copy p{font-size:clamp(13px,1vw,16px);line-height:1.45;margin:0;text-align:right}
+.meeting-partnership .proof-flow{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:12px;margin-top:24px}
+.meeting-partnership .proof-flow>div{border-top:2px solid currentColor;padding:22px 8px}
+.meeting-partnership .proof-flow b{display:block;font-size:12px;opacity:.75;margin-bottom:18px}
+.meeting-partnership .proof-flow strong{display:block;font-size:clamp(21px,2.1vw,34px);line-height:1.2}
+.meeting-partnership .proof-flow p{font-size:14px;opacity:.8;margin-top:18px}
+.meeting-partnership .inline-play{position:absolute;left:50%;top:50%;transform:translate(-50%,-50%);display:grid;place-items:center;width:76px;height:76px;border:2px solid #fff;border-radius:50%;background:#0d191bc4;color:#fff;font-size:26px;cursor:pointer;z-index:5;box-shadow:0 4px 20px #0007}
+.meeting-partnership .inline-play:hover{background:#d86643}
+.meeting-partnership .inline-play[hidden],.meeting-partnership .media-feedback[hidden]{display:none!important}
+.meeting-partnership .inline-play:focus-visible{outline:4px solid #f3d287;outline-offset:4px}
+.meeting-partnership .media-feedback{position:absolute;left:12px;right:12px;bottom:12px;background:#101b18ee;color:#fff;padding:12px;font-size:14px;z-index:8}
+.meeting-partnership .media-feedback a{color:#fff;text-decoration:underline}
+.meeting-standalone{margin:0;background:#f4f0e7}
+@media(max-width:850px){
+ .meeting-partnership .slide-inner{padding:54px 22px;gap:20px}
+ .meeting-partnership .headline{font-size:clamp(40px,9vw,64px)}
+ .meeting-partnership .hero-slide,.meeting-partnership .hero-slide .slide-inner,.meeting-partnership .hero-image img{min-height:570px}
+ .meeting-partnership .hero-slide .headline{font-size:clamp(56px,10vw,84px)}
+ .meeting-partnership .two-col,.meeting-partnership .two-col.wide-media,.meeting-partnership .roof-sales-content,.meeting-partnership .metric-big{grid-template-columns:1fr}
+ .meeting-partnership .media-window.portrait{height:550px;max-width:380px}
+ .meeting-partnership .media-row .media-window{height:500px}
+ .meeting-partnership .country-grid{grid-template-columns:1fr 1fr}
+ .meeting-partnership .country-video{height:520px}
+ .meeting-partnership .proof-flow,.meeting-partnership .food-case-list{grid-template-columns:1fr 1fr}
+ .meeting-partnership .sales-bars{height:340px;gap:7px}
+ .meeting-partnership .metrics{grid-template-columns:1fr 1fr}
+}
+@media(max-width:560px){
+ .meeting-intro{padding-bottom:48px}
+ .meeting-partnership .slide-inner{padding:48px 20px}
+ .meeting-partnership .headline{font-size:clamp(39px,10vw,52px)}
+ .meeting-partnership .lead{font-size:18px}
+ .meeting-partnership .hero-slide,.meeting-partnership .hero-slide .slide-inner,.meeting-partnership .hero-image img{min-height:580px}
+ .meeting-partnership .hero-slide::before{background:#071b15b9}
+ .meeting-partnership .hero-image{grid-template-columns:1fr 1fr}
+ .meeting-partnership .hero-image img{min-height:290px;height:290px}
+ .meeting-partnership .hero-slide .headline{font-size:clamp(52px,12vw,69px)}
+ .meeting-partnership .food-case-list{gap:0}
+ .meeting-partnership .roof-video-grid,.meeting-partnership .country-grid,.meeting-partnership .proof-flow{grid-template-columns:1fr}
+ .meeting-partnership .roof-video-grid .media-window{height:520px;max-width:360px;margin:auto}
+ .meeting-partnership .country-video{height:520px}
+ .meeting-partnership .country-copy p{text-align:right}
+ .meeting-partnership .media-row .media-window{height:390px}
+ .meeting-partnership .media-window.portrait{height:520px;max-width:340px}
+ .meeting-partnership .chart-svg.desktop-chart{display:none}
+ .meeting-partnership .chart-svg.mobile-chart{display:block;max-height:310px}
+ .meeting-partnership .sales-bars{height:260px;gap:4px}
+ .meeting-partnership .bar-col b{font-size:13px}
+ .meeting-partnership .bar-col span{font-size:12px}
+ .meeting-partnership .metrics b{font-size:clamp(23px,6vw,36px)}
+ .meeting-partnership .metric-big .support b{font-size:26px}
+}
+@media print{
+ .meeting-partnership .deck-slide{break-inside:avoid}
+ .meeting-partnership .inline-play,.meeting-partnership .media-feedback{display:none!important}
+ .meeting-partnership .media-window video{display:none}
+ .meeting-partnership .media-window .print-poster{display:block;width:100%;height:100%;object-fit:contain}
+}
