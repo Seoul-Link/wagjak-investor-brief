@@ -335,3 +335,5 @@ h2{font-size:clamp(32px,4.8vw,56px);max-width:980px}.lead{font-size:clamp(17px,1
 .guarantee{background:#153b35;color:white;padding:28px;margin-top:32px;line-height:1.8}.guarantee b{display:block;font-size:24px}.packages .note{font-size:14px;line-height:1.85;margin-top:20px;color:#65716d}
 
 .case-head img.inv{background:transparent;border:0;filter:brightness(0)}
+
+h1,.lead{word-break:keep-all;overflow-wrap:normal}
