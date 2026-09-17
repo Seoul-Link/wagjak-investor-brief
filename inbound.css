@@ -269,7 +269,7 @@ body{overflow-x:hidden} section{padding:110px 0} section:nth-of-type(3n+2){paddi
 .hero::before{content:"";position:absolute;right:-10%;top:-30%;width:54vw;height:54vw;border-radius:50%;background:radial-gradient(circle,rgba(220,67,24,.28),transparent 66%);pointer-events:none}
 .hero .wrap{position:relative}.hero h1{max-width:940px;font-size:clamp(42px,6.2vw,78px)}
 .hero .intro{font-size:clamp(17px,1.8vw,22px);max-width:830px;color:#d0d5dc}
-.hero-logos{grid-template-columns:repeat(5,1fr);max-width:960px;margin-top:18px}
+.hero-logos{grid-template-columns:repeat(4,1fr);max-width:960px;margin-top:18px}
 .hero-logos .ll{height:92px}.hero-logos img{max-height:41px}
 .hl-note{margin-top:48px}.kpis{grid-template-columns:repeat(3,1fr);max-width:940px;margin-top:48px}
 .kpi{padding:25px 24px}.kpi b{font-size:clamp(29px,3vw,42px)}
@@ -285,6 +285,7 @@ h2{font-size:clamp(32px,4.8vw,56px);max-width:980px}.lead{font-size:clamp(17px,1
 .district{border-top:3px solid var(--ink);padding:24px 24px 18px;background:#fff;min-height:340px}
 .district h3{font-size:30px}.district p{font-size:14px;color:var(--sub);margin-top:7px}
 .district .country{display:grid;grid-template-columns:58px 1fr 58px;align-items:center;gap:12px;margin-top:25px;font-size:16px}
+.district .country.tw{background:transparent}
 .district .country i{height:14px;background:var(--accent);display:block;border-radius:2px}.district .country.tw i{background:#1c8367}
 .district .country b{text-align:right;font-size:23px;font-variant-numeric:tabular-nums}
 .district .country i{width:var(--bar)}
@@ -301,7 +302,7 @@ h2{font-size:clamp(32px,4.8vw,56px);max-width:980px}.lead{font-size:clamp(17px,1
 .case{padding:120px 0}.case-head{display:flex;gap:18px;align-items:center}.case-head img{width:150px;height:75px;object-fit:contain;padding:15px;background:#fff;border:1px solid var(--line)}
 .case-head .tag{margin:0}.case h2{margin-top:28px}.case p.lead{max-width:900px}
 .case-stat{display:grid;grid-template-columns:repeat(3,1fr);gap:1px;background:var(--line);margin-top:45px;border-top:3px solid var(--ink)}
-.case-stat article{background:#fff;padding:28px 24px}.case-stat strong{font-size:clamp(32px,4vw,58px);font-weight:850;letter-spacing:-.06em;line-height:1;display:block;font-variant-numeric:tabular-nums}
+.case-stat article{background:#fff;color:var(--ink);padding:28px 24px}.case-stat strong{font-size:clamp(32px,4vw,58px);font-weight:850;letter-spacing:-.06em;line-height:1;display:block;font-variant-numeric:tabular-nums}
 .case-stat span{display:block;color:var(--sub);font-size:14px;margin-top:10px}
 .sales-chart{display:flex;align-items:flex-end;gap:16px;margin-top:44px;height:380px;border-bottom:2px solid var(--ink);padding:0 0 0 0}
 .sales-chart article{flex:1;text-align:center;height:100%;display:flex;flex-direction:column;justify-content:flex-end}
@@ -337,3 +338,14 @@ h2{font-size:clamp(32px,4.8vw,56px);max-width:980px}.lead{font-size:clamp(17px,1
 .case-head img.inv{background:transparent;border:0;filter:brightness(0)}
 
 h1,.lead{word-break:keep-all;overflow-wrap:normal}
+
+/* September review: country + performance above playable content */
+.media-row{grid-template-columns:repeat(2,minmax(0,1fr));gap:24px}.media-row .video-stats{display:flex;align-items:center;gap:18px;padding:22px 18px;min-height:0}.media-row .content-country{font-size:24px;white-space:nowrap}.media-row .engagement{display:flex;justify-content:space-between;gap:14px;flex:1;min-width:0}.media-row .engagement span{display:block;color:#fff}.media-row .engagement small{display:block;font-size:13px;color:#bac8d4;margin-bottom:4px}.media-row .engagement strong{font-size:clamp(17px,1.9vw,26px);font-variant-numeric:tabular-nums;letter-spacing:-.04em}.media-row video{aspect-ratio:9/12;object-fit:contain}
+.pricing-food{margin-top:48px}.packages .beauty-pricing-title{margin-top:60px}.packages .beauty-pricing{margin-top:20px}.beauty-pricing article{border:1px solid var(--line);padding:26px;background:var(--paper)}.packages .rate{font-size:18px;margin-top:16px}.packages .rate b{font-size:36px;color:var(--accent)}
+.sales-before-after{display:flex;align-items:center;gap:35px;flex-wrap:wrap;margin-top:48px}.sales-before-after span{display:block;font-size:18px;color:var(--sub)}.sales-before-after strong{font-size:clamp(56px,8vw,106px);line-height:1.2;letter-spacing:-.06em}.sales-before-after strong small{font-size:.35em}.sales-before-after>div:nth-of-type(2){color:var(--accent)}.sales-arrow{font-size:46px;color:var(--sub)}.sales-before-after p{font-size:20px}.sales-before-after p b{display:block;font-size:48px;color:var(--accent)}.sales-chart{height:220px;max-width:780px;gap:38px}.sales-chart i{max-width:44px;width:100%;margin:0 auto}
+@media(max-width:800px){.media-row{grid-template-columns:1fr}.media-row .engagement strong{font-size:25px}.packages .pkg-grid{grid-template-columns:1fr}}
+@media(max-width:540px){.media-row .video-stats{padding:18px 12px;gap:12px}.media-row .content-country{font-size:20px}.media-row .engagement{gap:8px}.media-row .engagement strong{font-size:20px}.media-row .engagement small{font-size:12px}.sales-before-after{gap:18px}.sales-before-after p{width:100%}.sales-chart{gap:12px}.beauty-pricing article{padding:20px 14px}.packages table{font-size:14px}}
+
+.post-links{display:grid;grid-template-columns:1fr 1fr;gap:20px;margin-top:35px}.post-links a{display:grid;gap:12px;padding:24px;background:var(--paper);border:1px solid var(--line);color:var(--ink)}.post-links b{font-size:22px}.post-links span{font-size:17px}.post-links em{font-style:normal;font-size:14px;color:var(--accent)}@media(max-width:800px){.post-links{grid-template-columns:1fr}}
+
+.domestic-sales{margin-top:44px;border-top:1px solid var(--line);padding-top:32px}.domestic-sales h3{font-size:clamp(28px,4vw,46px);margin:18px 0}.domestic-sales>p{font-size:20px}.domestic-sales p.source{font-size:13px}
